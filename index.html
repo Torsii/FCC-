@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Freecodecamp</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+  </head>
+  <body>
+    
+    <header id="header">
+      <h1 id="title">Survey FreeCodeCamp</h1>
+    <p id="description">Survey About Sports</p>
+    </header>
+<form id="survey-form">
+<div id="container">
+  <div id="div-form" class="form-group">
+    
+    <div class="form-group" id="div-label"><label id="name" class="first-label" ><p>Name</p></label>
+    <input type="text" id="name" class="form-control"  placeholder="Enter your name" required></div>
+    
+    <div class="form-group" id="div-label"><label id="email" class="first-label" ><p>Email</p></label>
+    <input type="email" id="email" class="form-control" placeholder="Enter your mail" required></div>
+    
+    <div class="form-group" id="div-label"><label id="age" class="first-label"><p>Age (optional)</p></label>
+    <input type="number" min="18" max="100" id="number" class="form-control" placeholder="Age">
+    </div>
+  </div>
+   <div id="div-select" class="form-group">
+        <p class="dropdown-p" id="dropdown-p">Choose your favorite sport</p>
+      <label class="select-label" class="first-label"><select id="dropdown" class="form-select"> 
+      <option id="option-1" class="select-option"selected disabled value="choosesport">Choose your sport</option>
+      <option id="option-2" class="select-option" value="Basketball">Basketball</option>
+      <option id="option-3" class="select-option" value="Americanfoot">American Football</option>
+      <option id="option-4" class="select-option" value="Baseball">Baseball</option>
+      <option id="option-5" class="select-option" value="Rugby">Rugby</option>
+      <option id="option-6" class="select-option" value="Tennis">Tennis</option>
+      <option id="option-7" class="select-option" value="Soccer">Soccer</option>
+      <option id="option-8" class="select-option" value="other">Other</option>
+    </select></label>
+    </div>
+<div id="div-play-sport" class="form-group">
+  <label id="play-sport" class="sport-label"> 
+    <p id="sport-p" class="sport-p">Would you like to play a sport professionally?</p>
+  <label id="1-label" class="sport-label">
+    <input type="radio" id="Obviously" name="radio-sport" class="input-radio" value="obviously">
+    Obviously</label>
+  <label id="2-label" class="sport-label">
+    <input type="radio" id="not-sure" name="radio-sport" class="input-radio" value="imnotsure">
+    Im not sure</label>
+  <label id="3-label" class="sport-label">
+    <input type="radio" id="Def-not" name="radio-sport" class="input-radio" value="definitelyno">
+    Definitely no</label>
+</label>
+</div>
+<div id="div-select" class="form-group">
+    <p class="option-p">Would you recommend any sport to your friends?</p>
+    <label id="recommend-sport" class="recommend-label">
+      <select id="dropdown" class="form-select">
+        <option id="option-a" selected disabled class="select-option">Select one</option>
+        <option id="option-b" class="select-option">No</option>
+        <option id="option-c" class="select-option">Yes, more than one</option>
+        <option id="option-d" class="select-option">Yes</option>
+      </select>
+    </label>
+</div>
+
+<div id="div-improved-label" class="form-group">
+<label id="improved-label" class="checkbox-label"><p class="improved-p">What would you like to see improved in sports?</p></label>  
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="improve-field-conditions" class="input-checkbox">Improve Field Conditions</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="better-viewing-experience" class="input-checkbox">Better Viewing Experience</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="make-the-game-fair" class="input-checkbox">Make the Game Fair</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="help-with-nutrition-and-training" class="input-checkbox">Help with Nutrition and Training</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="better-equipment" class="input-checkbox">Better Equipment</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="better-stadiums" class="input-checkbox">Better Stadiums</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="information" class="input-checkbox">Information</label>
+<label id="checkbox-label" class="check-label"><input name="improve" type="checkbox" value="instant-replay" class="input-checkbox">Instant Replay</label>
+</div>
+
+<div id="div-form-suggestion" class="form-group">
+<label class="form-suggestion">
+<p> Any comment or suggestions?</p>
+<textarea id="comment" class="input-textarea" name="comment" cols="60" row="8" placeholder="Enter your comment here..."></textarea>
+</label>
+</div>
+<div class="subbutton">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+</div>
+  </form>
+  </div>
+  </body>
+</html>
